@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corDeFundo">
+
+    <TextView
+        android:id="@+id/textoDosSintomas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/textodossintomas"
+        android:textColor="@color/corPreta"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/dificuldadesParaRespirar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:text="@string/dificuldadesDeRespirar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/botaoPaginaAnterior4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textoDosSintomas"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/dorOuPressaoNoPeito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="@string/dorOuPressaoNoPeito"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/dificuldadesParaRespirar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textoDosSintomas"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <CheckBox
+        android:id="@+id/perdaDeFalaOuMovimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/perdaDeFalaOuMovimento"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/dorOuPressaoNoPeito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textoDosSintomas"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <Button
+        android:id="@+id/botaoProximo4"
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:background="@drawable/seta_direita"
+        android:textColor="@color/corLetraBotao"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoDosSintomas"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <Button
+        android:id="@+id/botaoPaginaAnterior4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/seta_esquerda"
+        android:textColor="@color/corAmarela"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoDosSintomas"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <TextView
+        android:id="@+id/textoDoResultado4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Pontuacao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoPaginaAnterior4" />
+
+    <!--
+        <TextView
+            android:id="@+id/textoDosSintomas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/textodossintomas"
+            android:textColor="@color/corPreta"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <CheckBox
+            android:id="@+id/dificuldadesParaRespirar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="107dp"
+            android:text="@string/dificuldadesDeRespirar"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/dorOuPressaoNoPeito"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textoDosSintomas"
+            app:layout_constraintVertical_bias="0.301" />
+
+        <CheckBox
+            android:id="@+id/dorOuPressaoNoPeito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="204dp"
+            android:text="@string/dorOuPressaoNoPeito"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/perdaDeFalaOuMovimento"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.394"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.266" />
+
+        <Button
+            android:id="@+id/botaoProximo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="256dp"
+            android:background="@color/fundoBotao"
+            android:text="Ver Resultado"
+            android:textColor="@color/corLetraBotao"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.801"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perdaDeFalaOuMovimento"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/botaoPaginaAnterior4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/corVerde"
+            android:text="Página Anterior"
+            android:textColor="@color/corAmarela"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/botaoProximo4"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.625" />
+
+        <CheckBox
+            android:id="@+id/perdaDeFalaOuMovimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="68dp"
+            android:text="@string/perdaDeFalaOuMovimento"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/botaoPaginaAnterior4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.342"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.951" />
+
+        <TextView
+            android:id="@+id/textoDoResultado1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pontuação"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perdaDeFalaOuMovimento" />
+
+            <TextView
+                android:id="@+id/textoDeDificuldadesParaRespirar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="560dp"
+                android:text="Clique na caixa abaixo, se você está com sintomas de Dificuldades para Respirar:"
+                android:textColor="@color/corPreta"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textoDosSintomas"
+                app:layout_constraintVertical_bias="0.058" />
+
+            <CheckBox
+                android:id="@+id/dificuldadesParaRespirar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="76dp"
+                android:text="Dificuldades para Respirar"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textoDaDorOuPressaoNoPeito"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.193"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textoDeDificuldadesParaRespirar"
+                app:layout_constraintVertical_bias="0.226" />
+
+            <TextView
+                android:id="@+id/textoDaDorOuPressaoNoPeito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="408dp"
+                android:text="Clique na caixa abaixo, se você está com sintomas de grande Dor ou Pressão no Peito:"
+                android:textColor="@color/corPreta"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textoDeDificuldadesParaRespirar"
+                app:layout_constraintVertical_bias="0.695" />
+
+            <CheckBox
+                android:id="@+id/dorOuPressaoNoPeito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muita Dor ou Pressão no Peito"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textoDaPerdaDeMovimento"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.193"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textoDaDorOuPressaoNoPeito" />
+
+            <TextView
+                android:id="@+id/textoDaPerdaDeMovimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clique na caixa abaixo, se você está com sintomas de Perda de Movimento:"
+                android:textColor="@color/corPreta"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textoDaDorOuPressaoNoPeito"
+                app:layout_constraintVertical_bias="0.405" />
+
+            <CheckBox
+                android:id="@+id/perdaDeFalaOuMovimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="44dp"
+                android:text="Perda de Movimento"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/botaoPaginaAnterior4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.212"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textoDaPerdaDeMovimento" />
+
+            <Button
+                android:id="@+id/botaoProximo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="76dp"
+                android:background="@color/fundoBotao"
+                android:text="Ver Resultado"
+                android:textColor="@color/corLetraBotao"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.779"
+                app:layout_constraintStart_toEndOf="@+id/botaoPaginaAnterior4"
+                app:layout_constraintTop_toBottomOf="@+id/textoDaPerdaDeMovimento"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+                android:id="@+id/botaoPaginaAnterior4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginBottom="76dp"
+                android:background="@color/corVerde"
+                android:text="Página Anterior"
+                android:textColor="@color/corAmarela"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textoDaPerdaDeMovimento"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textoDoResultado4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="16dp"
+                android:text="Pontuação"
+                app:layout_constraintBottom_toTopOf="@+id/botaoProximo4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/perdaDeFalaOuMovimento"
+                app:layout_constraintTop_toBottomOf="@+id/textoDaPerdaDeMovimento"
+                app:layout_constraintVertical_bias="1.0" />
+                -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

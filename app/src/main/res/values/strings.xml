@@ -1,0 +1,166 @@
+<resources>
+    <string name = "textoInicial1">Bem-vindos ao Coronavírus App! Por favor,  escolha um dos botões abaixo:</string>
+    <string name = "botaoInicial1">Clique neste botão para você aprender sobre o Coronavírus</string>
+    <string name = "botaoInicial2">Clique neste botão para você já fazer um teste rápido dos sintomas</string>
+    <string name="app_name">CoronaVirusApp</string>
+    <string name="textoprincipal1"> Programador do aplicativo: Igor Cordeiro Szeremeta.\n
+        Seja muito bem-vindo ao aplicativo do Coronavírus!
+        \nTodas estas medidas estão totalmente de acordo com a Organização Mundial da Saúde.
+        \nEste aplicativo possui o objetivo de apresentar informações para a população sobre o Coronavírus, para ajudar a salvar vidas.
+        \nExplicações sobre a doença:
+        \nA doença do Coronavírus (COVID-19) é uma doença infecciosa causada pelo vírus de nome científico SARS-Cov-2.
+        \nNós estamos todos juntos nesta batalha, e nós iremos vencer se todos respeitarem as regras.
+    </string>
+
+    <string name="textoprincipal2">
+        \n
+         Por favor, preste atenção:
+        \nO vírus que causa a doença COVID-19 é transmitido \tprincipalmente por meio de gotículas geradas quando uma pessoa infectada tosse, espirra ou exala.
+        \nSempre que você tocar em algo público, como por exemplo, algum terminal de algum caixa eletrônico, evite colocar depois as mãos no seu rosto, principalmente nos seus olhos, nariz ou boca.
+        Procure sempre que possível, levar um álcool em gel junto com você. Então, quando você tiver que tocar em algo público, depois, sempre lave bem as mãos com o álcool em gel.
+    </string>
+
+    <string name="textoprincipal3">
+        A febre é o sintoma mais importante e dura em torno de três dias. Os sintomas respiratórios como a tosse e outros, tornam-se mais evidentes com a
+        progressão da doença e mantêm-se em geral de três a cinco dias após o desaparecimento da febre.
+        \nA grande maioria das pessoas, quando é infectada, não possui nenhum sintoma, ou os sintomas são muito leves.
+        \nPortanto, não entre em pânico, e incentive as pessoas a respeitarem as regras e a também não entrarem em pânico.
+    </string>
+
+    <string name = "textoprincipal4">
+        Este aplicativo foi desenvolvido para auxiliar na contenção do coronavírus entre a população, ajudando a salvar vidas.
+        \nÉ muito importante mesmo que todos respeitem todas estas regras, pois quando todos respeitam, a sociedade progride e todos se beneficiam.
+        \nQuanto mais pessoas respeitarem as regras e o que diz a Ciência, mais rápido esta pandemia irá terminar.
+        \nJamais despreze a doença.
+        \nClique no botão abaixo para você fazer um teste rápido!
+        \nE leia também sobre como fazer a prevenção e o tratamento.
+        \nNós estamos todos juntos para vencer esta batalha!
+        \nVocê nunca está sozinho!
+        \n Fonte: Organização Mundial da Saúde(OMS).
+    </string>
+
+    <string name="botao1">Clique nesse botão, continue lendo e aprenda muito mais!</string>
+
+    <string name="botao2">Clique nesse botão. Vamos continuar aprendendo mais?</string>
+
+    <string name="botao3">A Ciência é fascinante! Clique nesse botão.  Vamos continuar aprendendo cada vez mais?</string>
+
+    <string name="botao4">Clique nesse botão, e faça um teste rápido para verificar se você pode estar com a doença. \nMas não entre em pânico!</string>
+
+    <string name="irParaProximaPagina">Clique neste botão para ir para a próxima página</string>
+
+    <string name="textodossintomas">Teste dos Sintomas do Coronavírus. <br/>
+        Por favor, leia as opções abaixo e marque na caixa se você está sentindo estes sintomas ao mesmo tempo:</string>
+
+    <string name = "febre">Febre</string>
+    <string name = "tosseSeca">Tosse Seca</string>
+    <string name = "cansaco">Cansaço</string>
+    <string name = "doresEDesconfortos">Dores e Desconfortos</string>
+    <string name = "dorDeGarganta">Dor de Garganta</string>
+    <string name = "diarreia">Diarréia</string>
+    <string name = "conjuntivite">Conjuntivite</string>
+    <string name = "dorDeCabeca">Dor de Cabeça</string>
+    <string name = "perdaDePaladarOuOlfato">Perda de Paladar ou Olfato</string>
+    <string name = "erupcaoCutanea">Erupção Cutânea na pele ou descoloração dos \n dedos das mãos ou dos pés</string>
+    <string name = "dificuldadesDeRespirar">Dificuldade de respirar ou falta de ar</string>
+    <string name = "dorOuPressaoNoPeito">Grande Dor ou Pressão no Peito</string>
+    <string name = "perdaDeFalaOuMovimento">Perda de Fala ou Movimento</string>
+    <string name = "EnviarTeste">Enviar Teste</string>
+    <string name = "resultadoDoTeste">Resultado do Teste:</string>
+
+    <string name = "descricao">Montagem do Coronavírus</string>
+    <string name = "prevencao">Para se prevenir do Coronavírus, por favor, faça as seguintes atitudes:\n
+    \n- Procure lavar sempre as suas mãos com frequência, utilizando álcool em gel ou água e sabão; \n
+    \n- Evite totalmente ir para locais onde ocorre grande aglomeração de pessoas, como por exemplo: festas e shoppings; \n
+    \n- Procure manter o distanciamento social. Caso não seja possível, procure manter o distanciamento entre as pessoas; \n
+    \n- Utilize sempre máscara quando for sair para locais públicos; \n
+    \n- Evite tocar em locais públicos. Se tocar, lave muito bem as mãos antes de tocar a boca, o nariz e os olhos; \n
+    \n- Quando for tossir ou espirrar, procure cobrir a sua boca e o seu nariz com o braço dobrado ou com um lenço; \n
+    \n- Se você não estiver se sentindo bem, por favor, fique em casa; \n
+    </string>
+
+    <string name = "prevencao2">
+     Continuando com as dicas:
+    \n - Se você mora ou convive com pessoas idosas, você deve redobrar os cuidados; \n
+    \n - Se você tiver sentindo dificuldades para respirar, procure urgentemente atendimento médico; \n
+    \n - As máscaras podem sim ajudar a se prevenir do Coronavírus em relação às outras pessoas; \n
+    \n - Portanto, procure sempre ficar em casa. Se não puder, sempre saia em público com máscara, evitando tocar em \n
+     coisas públicas, lavando muito bem as mãos, e evitando tocar o nariz, a boca e os olhos; \n
+    \n - Esteja atento e sempre respeite o que dizem os profissionais de saúde; \n
+    \n - Seja sempre responsável, e incentive as pessoas a também tomarem cuidados com a prevenção ao vírus. \n
+    \n - Se você tem alguma dúvida, por favor, ligue para o telefone 136, que é o telefone oficial do Ministério da Saúde. \n
+    \n Juntos, nós podemos vencer o Coronavírus!
+    </string>
+
+    <string name = "textoDeTratamentos1">
+         - Espere a sua vez para tomar a vacina contra o Coronavírus indicada pelos cientistas. Quando chegar a sua vez, acredite na Ciência e tome a vacina.
+        \n\n - Procure sempre descansar, beber bastante água e comer alimentos saudáveis.
+        \n\n - Procure ficar em um quarto separado dos outros integrantes com quem você mora, e se possível utilize um banheiro pessoal.
+        \n\n - Procure sempre limpar a sua residência com frequência. Nos tempos de pandemia, procure sempre tomar
+        todos os cuidados para se prevenir do Coronavírus que foram apresentados por este aplicativo, mas
+        nunca entre em pânico.
+        \n\n - Converse com os seus familiares e amigos, e estabeleça uma forte amizade.
+        \n\n - Acompanhe as notícias, mas nunca se envolva demais, pois você pode entrar em desespero.
+     </string>
+
+    <string name = "textoDeTratamentos2">
+        Continuando as sugestões:
+        \n\n - Lembre-se sempre das crianças que são as que mais precisam de amor e atenção nesses tempos.
+        \n\n - Jamais faça aglomerações, e respeite sempre a doença. Respeite sempre o que dizem os profissionais da saúde.
+        \n\n - Lembre-se que você nunca estará sozinho no combate a esta doença. \nEstamos todos juntos, e vamos vencê-la
+        assim que possível. Para isto, é fundamental que todos respeitem estas regras e jamais as menosprezem.
+        \n\n - Este aplicativo foi desenvolvido justamente para alertar e conscientizar as pessoas da grande importância
+        de tomar todos os devidos cuidados que são aprovados pelos profissionais da saúde, com o objetivo de ajudar
+        a salvar o maior número de vidas possíveis.
+        \n\n - Vamos todos juntos ajudar a vencer esta doença! Você nunca está sozinho!
+    </string>
+
+    <string name = "BotaoPrevencao">Prevenção</string>
+    <string name = "BotaoTratamento">Tratamento</string>
+
+    <string name = "Tosse">Tosse</string>
+    <string name = "DoresEDesconfortos">Dores e Desconfortos</string>
+    <string name = "Cansaço">Cansaço</string>
+
+    <string name = "DorDeCabeça">Dor de Cabeça</string>
+    <string name = "DorDeGarganta">Dor de Garganta</string>
+    <string name = "Diarreia">Diarreia</string>
+
+    <string name = "Conjuntivite">Conjuntivite</string>
+    <string name = "Febre">Febre</string>
+    <string name = "PerdaDePaladarOuOlfato">Perda de Paladar ou Olfato</string>
+    <string name = "ErupcaoCutanea">Erupção Cutânea</string>
+
+    <string name = "PerdaDeFalaOuMovimento">Perda de Fala ou de Movimento</string>
+    <string name = "GrandeDorOuPressaoNoPeito">Grande Dor ou Pressão no Peito</string>
+    <string name = "DificuldadesParaRespirar">Dificuldades de Respirar ou Falta de Ar</string>
+
+    <string name = "VerResultado">Ver o Resultado</string>
+    <string name = "Pontuacao">Pontuação</string>
+
+    <string name = "CadastroDeUsuario">Cadastro de Usuário</string>
+    <string name = "Nome">Nome:</string>
+    <string name = "DataDeNascimento">Data de Nascimento:</string>
+    <string name = "Cidade">Cidade onde mora:</string>
+    <string name = "Genero">Gênero:</string>
+    <string name = "Etnia">Etnia:</string>
+    <string name = "CPF">CPF:</string>
+
+    <string name = "DigiteAquiOSeuNome">Digite aqui o seu Nome:</string>
+    <string name = "DigiteAquiASuaDataDeNascimento">Digite aqui a sua Data de Nascimento:</string>
+    <string name = "DigiteAquiACidadeQueVoceMora">Digite aqui a cidade que você mora:</string>
+    <string name = "DigiteAquiOSeuGenero">Digite aqui o seu Gênero:</string>
+    <string name = "DigiteAquiASuaEtnia">Digite aqui a sua Etnia:</string>
+    <string name = "DigiteAquiOSeuCPF">Digite aqui o seu CPF:</string>
+    <string name = "ProximaPagina">Próxima página</string>
+    <string name = "SalvarNoBancoDeDados">Salvar no Banco de Dados</string>
+
+    <string name = "DicasDePrevencao1">Clique nesse botão para conferir\n mais dicas de prevenção</string>
+
+    <string name = "ResultadoDoTeste">Resultado do Teste:</string>
+    <string name = "Resetar">Clique neste botão para começar o teste de novo</string>
+    <string name = "Prevencao">Clique neste botão para você saber como se prevenir</string>
+    <string name = "Tratamentos">Clique neste botão para você saber os tratamentos</string>
+    <string name = "SalvarResultado">Clique neste botão para você Salvar o Resultado</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980380439370",
+    "project_id": "coronavirusapp7",
+    "storage_bucket": "coronavirusapp7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980380439370:android:52087fbb943cf441b767b3",
+        "android_client_info": {
+          "package_name": "com.igorcordeiroszeremeta.coronavirusapp7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980380439370-r0h9kbtpkup2pd21k24ftfrhs4e64m4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW_CG82Y8nnWaSrzSTq7Kv5XIi8VDYWdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980380439370-r0h9kbtpkup2pd21k24ftfrhs4e64m4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
